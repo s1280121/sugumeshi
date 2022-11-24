@@ -84,11 +84,9 @@ class SearchActivity : AppCompatActivity() {
         fusedLocationClient.lastLocation
             .addOnSuccessListener(this) { location ->
                 if (location == null) {
-                    //新宿駅の緯度経度を検索データへ格納
-//                    term.lat = 35.690921
-//                    term.lng = 139.70025799999996
-                    term.lat = 37.52393597142831
-                    term.lng = 139.93747178250905
+                    //エミュレーター用(会津大学の緯度経度)
+//                    term.lat = 37.52393597142831
+//                    term.lng = 139.93747178250905
                 }
                 else{
                     //現在地の緯度経度を検索データへ格納
