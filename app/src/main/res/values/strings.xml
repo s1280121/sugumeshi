@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">スグめし</string>
+    <string name="getPlaceText">現在地を取得しています</string>
+    <string name="keyword">キーワード</string>
+    <string name="time">営業時間・定休日</string>
+    <string name="open_time">営業時間</string>
+    <string name="close_time">定休日</string>
+    <string name="access">アクセス</string>
+    <string name="card">カード利用</string>
+    <string name="smoking">喫煙・禁煙</string>
+    <string name="parking">駐車場</string>
+    <string name="budget">予算</string>
+
+    <string-array name="spinnerItems">
+        <item>300m以内</item>
+        <item>500m以内</item>
+        <item>1000m以内</item>
+        <item>2000m以内</item>
+        <item>3000m以内</item>
+    </string-array>
+</resources>
