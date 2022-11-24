@@ -19,9 +19,9 @@ Android Studio Dolphin | 2021.3.1 Patch 1
 Kotlin 1.5.0
 
 ## 動作対象端末・OS
-###エミュレータ
+### エミュレータ
 Pixel 5 / Android 12.0.0
-###実機
+### 実機
 SOV34 / Android 8.0.0
 
 
@@ -43,13 +43,12 @@ SOV34 / Android 8.0.0
 - 詳細画面 ：一覧画面で選択された飲食店の詳細を表示する。
 
 ### 使用しているAPI,SDK,ライブラリなど
-- ホットペッパーグルメサーチAPI  
-
+- ホットペッパーグルメサーチAPI
 - OkHttp3
 - Retrofit2
 - Glide
-- Data Binding
-- expandablelayout
+- Data Binding  
+- ExpandableLayout
 
 ## こだわったポイント
 ・詳細画面でExpandableLayout(折りたたみ)を使用したため、知りたい情報だけ選んで見れる  
