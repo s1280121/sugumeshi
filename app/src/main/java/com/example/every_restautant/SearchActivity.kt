@@ -85,8 +85,8 @@ class SearchActivity : AppCompatActivity() {
             .addOnSuccessListener(this) { location ->
                 if (location == null) {
                     //エミュレーター用(会津大学の緯度経度)
-//                    term.lat = 37.52393597142831
-//                    term.lng = 139.93747178250905
+                    term.lat = 37.52393597142831
+                    term.lng = 139.93747178250905
                 }
                 else{
                     //現在地の緯度経度を検索データへ格納
