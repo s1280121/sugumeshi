@@ -10,19 +10,17 @@ https://user-images.githubusercontent.com/87113276/203689687-c5a7f89b-55ff-4eb2-
 2週間
 
 ### コンセプト
-お腹が空いた時、すぐに近くの飲食店を探せる
+お腹が空いた時、すぐに近くの飲食店を探せる  
 
 
-## 開発環境
+### 開発環境
 環境：Android Studio Dolphin | 2021.3.1 Patch 1  
 言語：Kotlin 1.5.0
 
+### 動作対象端末・OS
+エミュレータ：Pixel 5 / Android 12.0.0  
+実機：SOV34 / Android 8.0.0
 
-## 動作対象端末・OS
-#### エミュレータ
-Pixel 5 / Android 12.0.0
-#### 実機
-SOV34 / Android 8.0.0
 
 
 ## アプリケーション機能
