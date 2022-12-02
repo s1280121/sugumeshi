@@ -1,34 +1,28 @@
 # 簡易仕様書
 
-### 作者
-荒 遥斗
+## アプリ動画
+https://user-images.githubusercontent.com/87113276/203689687-c5a7f89b-55ff-4eb2-bef6-a5335a63d4ba.mov
 
 ### アプリ名
 スグめし
 
+### 開発期間
+2週間
+
 ### コンセプト
 お腹が空いた時、すぐに近くの飲食店を探せる
 
-### 該当プロジェクトのリポジトリ URL（GitHub,GitLab など Git ホスティングサービスを利用されている場合）
-https://github.com/s1280121/sugumeshi
-
 
 ## 開発環境
-### 開発環境
-Android Studio Dolphin | 2021.3.1 Patch 1
+環境：Android Studio Dolphin | 2021.3.1 Patch 1  
+言語：Kotlin 1.5.0
 
-### 開発言語
-Kotlin 1.5.0
 
 ## 動作対象端末・OS
-### エミュレータ
+#### エミュレータ
 Pixel 5 / Android 12.0.0
-### 実機
+#### 実機
 SOV34 / Android 8.0.0
-
-
-## 開発期間
-2週間
 
 
 ## アプリケーション機能
@@ -77,6 +71,3 @@ SOV34 / Android 8.0.0
 
 ## 自己評価 
 APIについて全く知らないところからの開発だったが、調べていく中で理解を深めることが出来た。RecyclerViewなど以前に使ったことがある技術もあったためそこは実装しやすかった。しかし、RepositoryやViewModelあたりがよく分かっていないため今後理解していく必要がある。今回の開発では、ユーザーにとって使いやすいデザインを意識し、色や動作にかなり気を使った。見た目や使いやすさを優先しすぎて、コードが雑になっている部分もあるため、改善していきたい。
-
-## アプリ動画
-https://user-images.githubusercontent.com/87113276/203689687-c5a7f89b-55ff-4eb2-bef6-a5335a63d4ba.mov
