@@ -3,8 +3,8 @@ package com.example.every_restaurant.viewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.every_restautant.data.Restaurant
-import com.example.every_restautant.data.Term
+import com.example.every_restaurant.data.Restaurant
+import com.example.every_restaurant.data.Term
 import kotlinx.coroutines.launch
 
 
@@ -24,7 +24,6 @@ class ReataurantViewModel : ViewModel() {
                 if (restaurantList != null) {
                     restaurantDataList.postValue(restaurantList)
                 }
-            } else {
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.example.every_restautant
+package com.example.every_restaurant
 
 import android.annotation.SuppressLint
 import android.content.Intent

@@ -1,6 +1,6 @@
-package com.example.every_restautant.`interface`
+package com.example.every_restaurant.`interface`
 
-import com.example.every_restautant.data.RestaurantData
+import com.example.every_restaurant.data.RestaurantData
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

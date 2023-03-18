@@ -1,4 +1,4 @@
-package com.example.every_restautant
+package com.example.every_restaurant
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,11 +9,11 @@ import android.view.animation.RotateAnimation
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
-import androidx.databinding.DataBindingUtil
+//import androidx.data-binding.DataBindingUtil
 import com.bumptech.glide.Glide
-import com.example.every_restautant.data.Restaurant
-import com.example.every_restautant.data.Term
-import com.example.every_restautant.databinding.ActivityDetailBinding
+import com.example.every_restaurant.data.Restaurant
+import com.example.every_restaurant.data.Term
+import com.example.every_restaurant.databinding.ActivityDetailBinding
 
 
 class DetailActivity : AppCompatActivity() {
@@ -38,11 +38,14 @@ class DetailActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_detail)
+//        setContentView(R.layout.activity_detail)
+        binding = ActivityDetailBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
         supportActionBar?.title = "店舗詳細"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_detail)
+//        binding = DataBindingUtil.setContentView(this, R.layout.activity_detail)
 
         shop = intent.getSerializableExtra(SearchActivity.RESTAURANT_DATA) as Restaurant
         term = intent.getSerializableExtra(SearchActivity.SEARCH_TERM) as Term
@@ -82,44 +85,44 @@ class DetailActivity : AppCompatActivity() {
         binding.titleLayout1.setOnClickListener {
             binding.expandableLayout1.toggle()
             isSelected = !isSelected
-            val expand_arrow1 : ImageView = findViewById(R.id.expand_arrow1)
-            if(isSelected) expand_arrow1.startAnimation(expandAnimation())
-            else expand_arrow1.startAnimation(closeAnimation())
+            val expandArrow1 : ImageView = findViewById(R.id.expand_arrow1)
+            if(isSelected) expandArrow1.startAnimation(expandAnimation())
+            else expandArrow1.startAnimation(closeAnimation())
         }
         binding.titleLayout2.setOnClickListener {
             binding.expandableLayout2.toggle()
             isSelected2 = !isSelected2
-            val expand_arrow2 : ImageView = findViewById(R.id.expand_arrow2)
-            if(isSelected2) expand_arrow2.startAnimation(expandAnimation())
-            else expand_arrow2.startAnimation(closeAnimation())
+            val expandArrow2 : ImageView = findViewById(R.id.expand_arrow2)
+            if(isSelected2) expandArrow2.startAnimation(expandAnimation())
+            else expandArrow2.startAnimation(closeAnimation())
         }
         binding.titleLayout3.setOnClickListener {
             binding.expandableLayout3.toggle()
             isSelected3 = !isSelected3
-            val expand_arrow3 : ImageView = findViewById(R.id.expand_arrow3)
-            if(isSelected3) expand_arrow3.startAnimation(expandAnimation())
-            else expand_arrow3.startAnimation(closeAnimation())
+            val expandArrow3 : ImageView = findViewById(R.id.expand_arrow3)
+            if(isSelected3) expandArrow3.startAnimation(expandAnimation())
+            else expandArrow3.startAnimation(closeAnimation())
         }
         binding.titleLayout4.setOnClickListener {
             binding.expandableLayout4.toggle()
             isSelected4 = !isSelected4
-            val expand_arrow4 : ImageView = findViewById(R.id.expand_arrow4)
-            if(isSelected4) expand_arrow4.startAnimation(expandAnimation())
-            else expand_arrow4.startAnimation(closeAnimation())
+            val expandArrow4 : ImageView = findViewById(R.id.expand_arrow4)
+            if(isSelected4) expandArrow4.startAnimation(expandAnimation())
+            else expandArrow4.startAnimation(closeAnimation())
         }
         binding.titleLayout5.setOnClickListener {
             binding.expandableLayout5.toggle()
             isSelected5 = !isSelected5
-            val expand_arrow5 : ImageView = findViewById(R.id.expand_arrow5)
-            if(isSelected5) expand_arrow5.startAnimation(expandAnimation())
-            else expand_arrow5.startAnimation(closeAnimation())
+            val expandArrow5 : ImageView = findViewById(R.id.expand_arrow5)
+            if(isSelected5) expandArrow5.startAnimation(expandAnimation())
+            else expandArrow5.startAnimation(closeAnimation())
         }
         binding.titleLayout6.setOnClickListener {
             binding.expandableLayout6.toggle()
             isSelected6 = !isSelected6
-            val expand_arrow6 : ImageView = findViewById(R.id.expand_arrow6)
-            if(isSelected6) expand_arrow6.startAnimation(expandAnimation())
-            else expand_arrow6.startAnimation(closeAnimation())
+            val expandArrow6 : ImageView = findViewById(R.id.expand_arrow6)
+            if(isSelected6) expandArrow6.startAnimation(expandAnimation())
+            else expandArrow6.startAnimation(closeAnimation())
         }
     }
 

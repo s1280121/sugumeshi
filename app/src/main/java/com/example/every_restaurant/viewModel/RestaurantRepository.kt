@@ -1,6 +1,6 @@
 package com.example.every_restaurant.viewModel
 
-import com.example.every_restautant.`interface`.APIInterface
+import com.example.every_restaurant.`interface`.APIInterface
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

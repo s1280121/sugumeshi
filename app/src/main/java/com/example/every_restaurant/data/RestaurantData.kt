@@ -1,4 +1,4 @@
-package com.example.every_restautant.data
+package com.example.every_restaurant.data
 
 import java.io.Serializable
 

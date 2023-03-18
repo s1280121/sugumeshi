@@ -1,4 +1,4 @@
-package com.example.every_restautant.adapter
+package com.example.every_restaurant.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.every_restautant.R
-import com.example.every_restautant.data.Restaurant
+import com.example.every_restaurant.R
+import com.example.every_restaurant.data.Restaurant
 
 //RecyclerViewのAdapter
 
@@ -24,7 +24,7 @@ class RestaurantListAdapter(private var restaurantList: List<Restaurant>, var cl
     }
 
     override fun onBindViewHolder(holder: RestaurantListHolder, position: Int) {
-        holder.bind(restaurantList.get(position))
+        holder.bind(restaurantList[position])
     }
 
     override fun getItemCount(): Int {

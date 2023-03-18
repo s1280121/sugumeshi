@@ -1,4 +1,4 @@
-package com.example.every_restautant
+package com.example.every_restaurant
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -14,8 +14,8 @@ import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.every_restaurant.viewModel.ReataurantViewModel
-import com.example.every_restautant.adapter.RestaurantListAdapter
-import com.example.every_restautant.data.Term
+import com.example.every_restaurant.adapter.RestaurantListAdapter
+import com.example.every_restaurant.data.Term
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 
@@ -71,6 +71,7 @@ class SearchActivity : AppCompatActivity() {
         const val RESTAURANT_DATA = "restaurantData"
     }
 
+    @SuppressLint("SetTextI18n")
     private fun fusedLocation() {
         if (ActivityCompat.checkSelfPermission(
                 this, Manifest.permission.ACCESS_FINE_LOCATION
